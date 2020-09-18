@@ -110,7 +110,7 @@ export default {
     },
     async fetchData (){
       this.loading = true;
-      const url = "https://cors-anywhere.herokuapp.com/https://www.anewpla.net/fpl/league/json.php?id=7168";
+      const url = "https://cors-anywhere.herokuapp.com/https://www.anewpla.net/fpl/league/json.php?id=486806";
       const eventResponse = await fetch(url, this.cred)
         .then(response => response.json())
       let teamData = await eventResponse.data;
