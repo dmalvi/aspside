@@ -137,8 +137,8 @@ html {
   box-sizing: border-box;
   width: 100%;
   height: 100vh;
-  background: rgb(0,61,120);
-  background: linear-gradient(0deg, rgba(0,61,120,1) 0%, rgba(96,177,255,1) 100%);
+  background: rgb(38, 192, 0);
+  background: linear-gradient(0deg, rgb(38, 192, 0) 0%, rgb(100, 0, 146) 100%);
   background-attachment: fixed !important;
 }
 
@@ -196,7 +196,7 @@ thead, tbody {
 .league-table {
   width: 97%;
   border-spacing: 0 2px;
-  margin: 1rem auto;
+  /* margin: 1rem auto; */
   border-radius: 10px 10px 0px 0px;
   overflow: hidden;
   -webkit-box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.5);
@@ -209,7 +209,7 @@ th, td{
 }
 
 .header-row {
-  background-color: #3d6694;
+  background-color: rgb(38, 192, 0);
   color: white;
 }
 
@@ -249,7 +249,7 @@ h2, h3{
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
                0px 8px 13px rgba(0,0,0,0.1),
                0px 18px 23px rgba(0,0,0,0.1);
-  font-size: 48px;
+  font-size: 40px;
 }
 
 .gw-text {
@@ -257,7 +257,7 @@ h2, h3{
 }
 
 big {
-  color: #3d6694;
+  color: rgb(38, 192, 0);
 }
 
 .status {
@@ -314,7 +314,7 @@ big {
 
 .loader {
   border: 16px solid rgba(255, 255, 255, 0.4);
-  border-top: 16px solid #003d78;
+  border-top: 16px solid rgb(38, 192, 0);
   border-radius: 50%;
   width: 80px;
   height: 80px;
